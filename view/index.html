@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <!-- CSS files -->
+    <link rel="stylesheet" href="/view/css/main.css">
+    <link rel="stylesheet" href="/view/css/d3.css">
+  </head>
+
+  <body>
+    <!-- Title -->
+    <h3>stocks:</h3>
+    <div class="hl"></div>
+
+    <!-- Placeholder for d3 charts -->
+    <br>
+    <div id="svg-container">
+      <svg></svg>
+    </div>
+
+    <!-- Placeholder for buttons to remove stocks -->
+    <br><br><br>
+    <h3>remove stock:</h3>
+    <div id="stock-buttons">
+    </div>
+
+    <!-- Form for adding stock charts -->
+    <br><br><br>
+    <h3>add stock:</h3>
+    <form id="add-stock-form">
+        <div class="form-group">
+            <br>
+            <input type="text"
+              class="form-input-name"
+              name="stockName"
+              placeholder="Add a publicly traded company"
+              autocomplete="off">
+            <button type="submit" id="add-stock-form-btn" class="btn btn-info btn-lg">add</button>
+        </div>
+    </form>
+
+    <!-- For testing purposes -->
+    <div class="test">
+    </div>
+
+    <!-- Libraries -->
+    <script type="text/javascript" src="/libraries/d3.v3.min.js"></script>
+    <script type="text/javascript" src="/libraries/jquery.2.1.3.min.js"></script>
+
+    <!-- Socket -->
+    <script src="/socket.io/socket.io.js"></script>
+
+    <!-- Client controller -->
+    <script type="text/javascript" src="/common/d3-functions.js"></script>
+    <script type="text/javascript" src="/controller/stockController.client.js"></script>
+
+  </body>
+
+</html>

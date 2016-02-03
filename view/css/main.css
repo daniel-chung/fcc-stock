@@ -1,0 +1,52 @@
+
+body {
+    margin: 100px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.hl {
+  border-top: 2px solid grey;
+  margin: -15px 0 20px 0;
+}
+
+form {
+  border-top: 2px solid grey;
+  padding: 20px;
+  margin-top: -15px;
+}
+
+.form-input-name {
+  width: 300px;
+  font-size: 20px;
+  font-weight: 200;
+  color: grey;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 10px;
+}
+
+#stock-buttons {
+  border-top: 2px solid grey;
+  padding: 20px;
+  margin-top: -15px;
+}
+
+.btn-stock, #add-stock-form-btn {
+  font-size: 20px;
+  font-weight: 200;
+  color: grey;
+  background: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 10px;
+}
+
+.btn-stock:hover, #add-stock-form-btn:hover {
+  color: white;
+  background: grey;
+}
